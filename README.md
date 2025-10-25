@@ -167,5 +167,5 @@ Media files are stored in `backend/media/` directory
 **Searching With Barcode**
 ![Admin Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/SearchwithBarcode-admin.png)
 
-**Accesing the User Request Details**
+**Accessing the User Request Details**
 ![Admin Dashboard](https://github.com/apurba-striker/AssignmentExchangeRequest/blob/main/images/RequestDetail-Admin.png)
