@@ -39,14 +39,14 @@ project-barcode/
 2. **Setting up a virtual environment**
 
    ```bash
-   python -m venv venv
+   python3 -m venv .venv
    ```
 
 3. **Activate virtual environment:**
 
    ```bash
    # Windows
-   venv\Scripts\activate
+   .venv\Scripts\activate
 
    # macOS/Linux
    source venv/bin/activate
@@ -58,10 +58,10 @@ project-barcode/
    pip install -r requirements.txt
    ```
 
-5. **Navigate to Backend Folder For Running Server**
+5. **Navigate to returnmanage Folder For Running the Server**
 
    ```bash
-   cd backend
+   cd returnmanage
    ```
 
 6. **Run migrations:**
