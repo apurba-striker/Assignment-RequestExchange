@@ -28,6 +28,9 @@ project-barcode/
 - npm or yarn
 - Virtual environment (venv)
 
+# Clone the repository
+git clone https://github.com/apurba-striker/AssignmentExchangeRequest
+cd AssignmentExchangeRequest
 ## Backend Setup (Django)
 
 1. **Navigate to backend directory:**
