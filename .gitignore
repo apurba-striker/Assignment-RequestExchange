@@ -129,7 +129,6 @@ dmypy.json
 .pyre/
 
 # Django specific
-media/
 staticfiles/
 static/
 
@@ -267,10 +266,6 @@ Thumbs.db
 logs
 *.log
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
 
 # Temporary files
 *.tmp
