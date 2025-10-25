@@ -29,8 +29,10 @@ project-barcode/
 - Virtual environment (venv)
 
 # Clone the repository
+```bash
 git clone https://github.com/apurba-striker/AssignmentExchangeRequest
 cd AssignmentExchangeRequest
+```
 ## Backend Setup (Django)
 
 1. **Navigate to backend directory:**
