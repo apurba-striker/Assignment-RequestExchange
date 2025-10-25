@@ -144,8 +144,8 @@ Media files are stored in `backend/media/` directory
 **FirstTime Login**
 ![User Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/UserDashboardFirstTimeLogin.png)
 
-**After Adding Return Request**
-![User Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/AddedTheRequest.png)
+**After Adding Return Requests**
+![User Dashboard](https://github.com/apurba-striker/AssignmentExchangeRequest/blob/main/images/UserDashboardView.png)
 
 ### Creating A Request
 
@@ -168,4 +168,4 @@ Media files are stored in `backend/media/` directory
 ![Admin Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/SearchwithBarcode-admin.png)
 
 **Accessing the User Request Details**
-![Admin Dashboard](https://github.com/apurba-striker/AssignmentExchangeRequest/blob/main/images/RequestDetail-Admin.png)
+![Admin Dashboard](https://github.com/apurba-striker/AssignmentExchangeRequest/blob/main/images/RequestDetailView-admin.png)
