@@ -77,7 +77,7 @@ project-barcode/
    python manage.py createsuperuser
    ```
 
-   (Already Created SuperUser(Admin) **Username:admin** **Password:ald123456**)
+   (Already Created A SuperUser(Admin) **Username:admin** **Password:ald123456**)
 
 8. **Start development server:**
    ```bash
