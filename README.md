@@ -133,8 +133,35 @@ Media files are stored in `backend/media/` directory
 
 ### User Dashboard
 
+**FirstTime Login**
 ![User Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/UserDashboardFirstTimeLogin.png)
+**After Adding Return Request**
+![User Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/AddedTheRequest.png)
+
+### Creating A Request
+
+![Creating A Request](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/CreatingReturnRequest.png)
+
+**After Clicking On the Scan Barcode with Camera**
+![Creating A Request](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/ScannertheBarcode.png)
+
+**Uploading Files**
+![Creating A Request](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/AddingSupportFiles.png)
 
 ### Admin Dashboard
 
-![Admin Dashboard](https://via.placeholder.com/800x400/EF4444/FFFFFF?text=Admin+Dashboard)
+![Admin Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/AdminDashboard.png)
+
+**Searching With User Names**
+![Admin Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/SearchwithName-Admin.png)
+
+**Searching With Barcode**
+![Admin Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/SearchwithBarcode-admin.png)
+
+### Login And Register Page:
+
+**Login Page**
+![Login And Register Page](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/LoginPage.png)
+
+**Register Page**
+![Login And Register Page](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/RegisterPage.png)
