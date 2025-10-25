@@ -128,3 +128,13 @@ The project uses SQLite by default for development.
 ## Media Files
 
 Media files are stored in `backend/media/` directory
+
+## Screenshots
+
+### User Dashboard
+
+![User Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/UserDashboardFirstTimeLogin.png)
+
+### Admin Dashboard
+
+![Admin Dashboard](https://via.placeholder.com/800x400/EF4444/FFFFFF?text=Admin+Dashboard)
