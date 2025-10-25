@@ -107,17 +107,19 @@ The API will be available at `http://localhost:8000/`
    ```
 
 4. **Start development server:**
+
    ```bash
    npm run dev
    ```
+
+   **The React app will be available at `http://localhost:5173/`**
+
 5. **For Admin Dashboard Page**
-   ### Use this Credentials In login Page:
+   **Use this Credentials In login Page:**
    ```bash
    username: admin
    password: ald123456
    ```
-
-The React app will be available at `http://localhost:5173/`
 
 ## Database
 
