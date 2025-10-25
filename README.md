@@ -1,31 +1,24 @@
 # Barcode Project
 
-A full-stack application for barcode scanning and return management, built with Django REST Framework backend and React frontend.
+A full-stack application for scanning the barcode and return management for ecommerce, built with Django REST Framework backend and React frontend.
 
 ## Project Structure
 
 ```
 project-barcode/
-├── backend/                 # Django REST API
-│   ├── backend/            # Django project settings
-│   ├── returns/            # Returns app
-│   ├── media/              # Media files storage
-│   └── venv/                 # Virtual environment
-└── frontend/               # React application
-    ├── src/
-    │   ├── components/     # React components
-    │   └── services/       # API services
-    └── public/             # Static assets
+|---backend/                # Django REST API
+│   |---backend/            # Django project settings
+│   |---returns/            # Returns app
+│   |---media/              # Media files storage
+│   |---venv/               # Virtual environment
+|---frontend/               # React(Vite) application
+    |--- src/
+    |   |--- assests         # Assets
+    │   |--- components/     # React components
+    │   |--- services/       # API services
+    |
+    |--- public/             # Static assets
 ```
-
-## Features
-
-- **Barcode Scanning**: Scan barcodes using device camera
-- **Return Management**: Create and manage product returns
-- **Admin Dashboard**: Administrative interface for managing returns
-- **Media Upload**: Support for images and videos
-- **RESTful API**: Django REST Framework backend
-- **Modern UI**: React frontend with responsive design
 
 ## Prerequisites
 
@@ -106,16 +99,28 @@ The API will be available at `http://localhost:8000/`
    npm install
    ```
 
-3. **Start development server:**
+3. **Setting Up Environment**
+
+   ```bash
+   change filename of .env.example to .env
+   ```
+
+4. **Start development server:**
    ```bash
    npm run dev
+   ```
+5. **For Admin Dashboard**
+   Use this Credentials:
+   ```bash
+   username: admin
+   password: ald123456
    ```
 
 The React app will be available at `http://localhost:5173/`
 
 ## Database
 
-The project uses SQLite by default for development. For production, consider using PostgreSQL or MySQL.
+The project uses SQLite by default for development.
 
 ## Media Files
 
