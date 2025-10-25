@@ -6,11 +6,12 @@ A full-stack application for scanning the barcode and return management for ecom
 
 ```
 project-barcode/
-|---backend/                # Django REST API
-│   |---backend/            # Django project settings
-│   |---returns/            # Returns app
-│   |---media/              # Media files storage
-│   |---venv/               # Virtual environment
+|---backend/
+    |---returnmanage               # Django REST API
+    |   |---backend/            # Django project settings
+    |   |---returns/            # Returns app
+    |   |---media/              # Media files storage
+    |   |---venv/               # Virtual environment
 |---frontend/               # React(Vite) application
     |--- src/
     |   |--- assests         # Assets
@@ -109,8 +110,8 @@ The API will be available at `http://localhost:8000/`
    ```bash
    npm run dev
    ```
-5. **For Admin Dashboard**
-   Use this Credentials:
+5. **For Admin Dashboard Page**
+   ### Use this Credentials In login Page:
    ```bash
    username: admin
    password: ald123456
@@ -124,4 +125,4 @@ The project uses SQLite by default for development.
 
 ## Media Files
 
-Media files are stored in the `backend/media/` directory and organized by date.
+Media files are stored in `backend/media/` directory
