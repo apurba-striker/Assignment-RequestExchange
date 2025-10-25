@@ -131,10 +131,19 @@ Media files are stored in `backend/media/` directory
 
 ## Screenshots
 
+### Login And Register Page:
+
+**Login Page**
+![Login And Register Page](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/LoginPage.png)
+
+**Register Page**
+![Login And Register Page](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/RegisterPage.png)
+
 ### User Dashboard
 
 **FirstTime Login**
 ![User Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/UserDashboardFirstTimeLogin.png)
+
 **After Adding Return Request**
 ![User Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/AddedTheRequest.png)
 
@@ -157,11 +166,3 @@ Media files are stored in `backend/media/` directory
 
 **Searching With Barcode**
 ![Admin Dashboard](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/SearchwithBarcode-admin.png)
-
-### Login And Register Page:
-
-**Login Page**
-![Login And Register Page](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/LoginPage.png)
-
-**Register Page**
-![Login And Register Page](https://github.com/apurba-striker/Assignment-RequestExchange/blob/main/images/RegisterPage.png)
