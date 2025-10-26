@@ -9,7 +9,6 @@ const BarcodeScanner = ({ onScan, onClose }) => {
   const codeReaderRef = useRef(null);
   const stopCamera = () => {
     console.log('Stopping camera...');
-
     if (controlsRef.current) {
       try {
         controlsRef.current.stop();
