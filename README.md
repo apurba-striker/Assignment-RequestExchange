@@ -1,11 +1,11 @@
-# Barcode Project
+# Return Request - Barcode Project
 
 A full-stack application for scanning the barcode and return management for ecommerce, built with Django REST Framework backend and React frontend.
 
 ## Project Structure
 
 ```
-project-barcode/
+AssignmentReturnRequest/
 |---backend/
     |---returnmanage               # Django REST API
     |   |---backend/            # Django project settings
@@ -30,7 +30,7 @@ project-barcode/
 
 # Clone the repository
 ```bash
-git clone https://github.com/apurba-striker/AssignmentExchangeRequest
+git clone https://github.com/apurba-striker/AssignmentReturnRequest
 cd AssignmentExchangeRequest
 ```
 ## Backend Setup (Django)
