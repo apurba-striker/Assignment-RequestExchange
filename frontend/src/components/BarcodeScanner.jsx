@@ -7,12 +7,9 @@ const BarcodeScanner = ({ onScan, onClose }) => {
   const [isLoading, setIsLoading] = useState(true);
   const controlsRef = useRef(null);
   const codeReaderRef = useRef(null);
-
-  // Comprehensive camera stop function
   const stopCamera = () => {
     console.log('Stopping camera...');
 
-    // Method 1: Stop ZXing controls
     if (controlsRef.current) {
       try {
         controlsRef.current.stop();
@@ -23,7 +20,6 @@ const BarcodeScanner = ({ onScan, onClose }) => {
       controlsRef.current = null;
     }
 
-    // Method 2: Stop video element stream
     if (videoRef.current && videoRef.current.srcObject) {
       const stream = videoRef.current.srcObject;
       const tracks = stream.getTracks();
@@ -36,7 +32,6 @@ const BarcodeScanner = ({ onScan, onClose }) => {
       videoRef.current.srcObject = null;
     }
 
-    // Method 3: Reset code reader
     if (codeReaderRef.current) {
       try {
         codeReaderRef.current.reset();
@@ -45,8 +40,6 @@ const BarcodeScanner = ({ onScan, onClose }) => {
         console.error('Error resetting code reader:', e);
       }
     }
-
-    // Method 4: Pause and clear video element
     if (videoRef.current) {
       videoRef.current.pause();
       videoRef.current.src = '';
@@ -58,7 +51,6 @@ const BarcodeScanner = ({ onScan, onClose }) => {
 
   const handleClose = () => {
     stopCamera();
-    // Add small delay to ensure cleanup completes
     setTimeout(() => {
       onClose();
     }, 100);
@@ -130,14 +122,12 @@ const BarcodeScanner = ({ onScan, onClose }) => {
     };
 
     startScanning();
-
-    // Cleanup on unmount
     return () => {
       console.log('Component unmounting, cleaning up...');
       isActive = false;
       stopCamera();
     };
-  }, []); // Remove dependencies to prevent re-running
+  }, []); 
 
   return (
     <div style={styles.overlay}>
