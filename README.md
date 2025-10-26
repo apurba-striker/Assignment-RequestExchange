@@ -31,7 +31,7 @@ AssignmentReturnRequest/
 # Clone the repository
 ```bash
 git clone https://github.com/apurba-striker/AssignmentReturnRequest
-cd AssignmentExchangeRequest
+cd AssignmentReturnRequest
 ```
 ## Backend Setup (Django)
 
